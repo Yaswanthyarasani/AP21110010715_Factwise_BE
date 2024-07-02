@@ -1,0 +1,5 @@
+n=list(map(int,input().split()))
+k=int(input())
+a=sum(n[:k])
+b=sum(n[len(n)-k:len(n)])
+print(max(a,b))
