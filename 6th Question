@@ -1,0 +1,7 @@
+n=input().split()
+sum=0
+for i in n:
+    for j in i:
+        if j not in [" ",",","-","/","_","!"]:
+            sum+=1
+print(sum)
